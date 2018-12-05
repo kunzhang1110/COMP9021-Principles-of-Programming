@@ -1,0 +1,25 @@
+# Row tables
+Origin -> B1 A
+
+A1 -> B1 A
+B1 -> A1 B
+
+
+
+# Axiom array
+Origin
+
+
+
+# Column tables
+A1 -> A1
+A -> A1
+B -> B1
+
+
+A1 -> B1 a
+B1 -> A1 b
+
+
+A1 -> a
+B1 -> b

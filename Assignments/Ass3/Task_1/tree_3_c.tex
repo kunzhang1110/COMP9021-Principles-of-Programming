@@ -1,0 +1,24 @@
+\documentclass[10pt]{article}
+\usepackage{tikz}
+\usetikzlibrary{shapes}
+\pagestyle{empty}
+
+\begin{document}
+
+\begin{center}
+\begin{tikzpicture}
+\tikzstyle{every node}=[circle,draw]
+\node {A}
+    child {node {B}}
+    child[fill=none] {edge from parent[draw=none]}
+    child[fill=none] {edge from parent[draw=none]}
+    child {
+        child {node {D}}
+    }
+    child {node {E}
+        child {node {F}}
+    };
+\end{tikzpicture}
+\end{center}
+
+\end{document}

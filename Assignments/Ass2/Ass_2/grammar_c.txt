@@ -1,0 +1,15 @@
+# Axiom array
+symbol_A1
+# Row tables
+symbol_A1 -> other_symbol_B1 to_become_a
+other_symbol_B1 -> symbol_A1 to_become_b
+# Column tables
+symbol_A1 -> symbol_A1
+to_become_a -> symbol_A1
+to_become_b -> other_symbol_B1
+
+symbol_A1 -> other_symbol_B1 a
+other_symbol_B1 -> symbol_A1 b
+
+symbol_A1 -> a
+other_symbol_B1 -> b

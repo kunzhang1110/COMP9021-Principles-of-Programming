@@ -1,0 +1,34 @@
+\documentclass[10pt]{article}
+\usepackage{tikz}
+\usetikzlibrary{shapes}
+\pagestyle{empty}
+
+\begin{document}
+
+\begin{center}
+\begin{tikzpicture}
+[grow'=up]
+\node {This}
+    child {node {is the}
+        child {node {2nd}
+            child {node {example}}
+            child {node {of a}}
+            child
+        }
+    }
+    child {node {tree}
+        child {node {given}}
+        child[fill=none] {edge from parent[draw=none]}
+    }
+    child {node {for the}
+        child {node {fourth}
+            child {node {assignment}
+                child {node {this session}}
+            }
+        }
+    }
+    child {node {in s2, 2009}};
+\end{tikzpicture}
+\end{center}
+
+\end{document}

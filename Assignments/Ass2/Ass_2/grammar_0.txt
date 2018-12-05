@@ -1,0 +1,29 @@
+# Axiom array
+C1 D2
+C3 D3
+C2 D1
+
+# Row tables
+
+# Column tables
+C1 -> B1 A1
+C2 -> B3 A2
+C3 -> B5 c
+
+B1 -> A1
+B2 -> A1
+B3 -> A2
+B4 -> B1
+B5 -> A3
+
+D1 -> B2
+D2 -> B3
+D3 -> B5
+
+D1 -> B2
+D2 -> b
+D3 -> B5
+
+A1 -> ε
+A2 -> ε
+A3 -> ε 

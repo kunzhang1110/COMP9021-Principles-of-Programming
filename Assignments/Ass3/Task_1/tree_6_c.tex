@@ -1,0 +1,30 @@
+\documentclass[10pt]{article}
+\usepackage{tikz}
+\usetikzlibrary{shapes}
+\pagestyle{empty}
+
+\begin{document}
+
+\begin{center}
+\begin{tikzpicture}
+\node {R}
+    child {node {N1}}
+    child {node {N2}
+        child {node {N3}
+            child
+        }
+        child {node {N4}
+            child
+            child[fill=none] {edge from parent[draw=none]}
+        }
+    }
+    child {
+        child {node {N5}
+            child[fill=none] {edge from parent[draw=none]}
+            child {node {N6}}
+        }
+    };
+\end{tikzpicture}
+\end{center}
+
+\end{document}

@@ -1,0 +1,37 @@
+# Axiom array
+A I X M
+B J Y N
+C K Z M
+
+# Row tables
+
+# Column tables
+A -> A1
+B -> B1
+C -> A1
+
+A1 -> ε
+B1 -> ε
+C1 -> ε
+
+A2 -> ε
+B2 -> ε
+C2 -> ε
+
+I -> W
+J -> W
+K -> Z
+L -> Z
+
+M -> A2 Y
+N -> B2 Z
+
+W -> a b
+X -> a b
+Y -> a b
+Z -> a b
+
+W -> A1
+X -> A1
+Y -> B1
+Z -> B1

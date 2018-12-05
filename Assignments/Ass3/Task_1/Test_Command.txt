@@ -1,0 +1,30 @@
+python display_tree.py tree_1.txt
+python display_tree.py -grow up tree_2.txt
+python display_tree.py -nodestyle circle tree_3.txt
+python display_tree.py -grow left -nodestyle ellipse tree_4.txt
+python display_tree.py -nodestyle rectangle -grow down tree_5.txt
+
+python display_tree.py -nodestyle rectangle -lines dashed tree.txt
+Incorrect invocation
+python display_tree.py -nodestyle triangle tree_1.txt
+Incorrect invocation
+python display_tree.py -nodestyle tree_1.txt
+Incorrect invocation
+python display_tree.py -nodestyle rectangle tree.text
+Incorrect invocation
+python display_tree.py tree_1.txt -nodestyle rectangle
+Incorrect invocation
+python display_tree.py -nodestyle rectangle
+Incorrect invocation
+python display_tree.py -nodestyle rectangle tree_1.txt tree_2.txt
+Incorrect invocation
+python display_tree.py -nodestyle rectangle tree.txt
+No file named tree.txt in current directory
+python display_tree.py wrong_1.txt
+Wrong number of leading spaces on nonblank line 7
+python display_tree.py wrong_2.txt
+Wrong number of leading spaces on nonblank line 4
+python display_tree.py wrong_3.txt
+Wrong number of leading spaces on nonblank line 5
+python display_tree.py wrong_4.txt
+Wrong number of leading spaces on nonblank line 6
