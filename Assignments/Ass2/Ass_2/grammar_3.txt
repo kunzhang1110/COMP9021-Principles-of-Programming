@@ -1,0 +1,8 @@
+# Axiom array
+   S   *  S
+   S   *   S
+   S   *   S
+# Row tables
+S    ->    *
+# Column tables
+S    ->    *

@@ -1,0 +1,27 @@
+\documentclass[10pt]{article}
+\usepackage{tikz}
+\usetikzlibrary{shapes}
+\pagestyle{empty}
+
+\begin{document}
+
+\begin{center}
+\begin{tikzpicture}
+\node {A}
+    child {node {B}
+        child {node {C}}
+    }
+    child {node {D}
+        child {node {E}}
+        child {node {F}}
+    }
+    child {node {G}}
+    child {node {H}
+        child {node {I}
+            child {node {J}}
+        }
+    };
+\end{tikzpicture}
+\end{center}
+
+\end{document}
